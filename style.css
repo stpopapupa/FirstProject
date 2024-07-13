@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&display=swap');
+
+
+.comfortaa{
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+.main-block, .about-block, .skills-block, .works-block, .comments-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+/* .main-block{
+
+}
+.main-title{
+
+}
+.main-content{
+
+}
+.main-subtitle{
+
+} */
