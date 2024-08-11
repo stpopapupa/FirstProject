@@ -7,9 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div class="fixed-menu">
+            <h class="logo">PK</h>       
+            <div class="nav-links">
+                <a class="nav-link" href="#main">Главня</a>
+                <a class="nav-link" href="#about">Обо Мне</a>
+                <a class="nav-link" href="#skills">Навыки</a>
+                <a class="nav-link" href="#works">Работы</a>
+                <a class="nav-link" href="#comment">Отзывы</a>
+                <div class="mobile-button">
+                    <img src="" width="40">
+                </div>
+                <div class="mobile-menu hide">
+                    <div class="mobile-nav">
+                        <div class="mobile-nav-links"></div>
+          
+                <a class="nav-link" href="#main">Главня</a>
+                <a class="nav-link" href="#about">Обо Мне</a>
+                <a class="nav-link" href="#skills">Навыки</a>
+                <a class="nav-link" href="#works">Работы</a>
+                <a class="nav-link" href="#comment">Отзывы</a>
+            </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 <section id = 'main'>
     <div  class="main-block">
-    <img scr="icone.jpg" width="125">
+    <!-- <img src="icone.jpg" width="125"> -->
         <div class="main-content">
     <h1 class ='main-title'>
         Перцев Кирилл
@@ -19,30 +45,82 @@
     </p>
     </div>
     <div class="moving">
-	</div>
+    </div>
     <div class="button">
-        <a href="#">Подробнеее</a>
+        <a href="#">Подробнее</a>
     </div>
 </section>
 <section id = 'about'>
+    <h1 class="title">Обо мне</h1>
+    <img class = 'img' src="icone.jpg" width="300">
     <div  class="about-block">
-        
+    <p class="about-title">Меня зовут Кирилл.
+        Мне нравится создавать сайты и стилизовать их под свой вкус<br><br>
+    </p>
+    <div class="button">
+        <a href="#">Мои навыки</a>
+    </div>
+    </div>
+    <div class="about-card">
     </div>
 </section>
 <section id = 'skills'>
+    <h1 class="title"></h1>
     <div  class="skills-block">
+        <p class="title">Навыки</p>
+        <div class="skills-card">
+            <p>Этот сайт я сделал сам в процессе обучения в школе RTS</p>
+            <div class ='lang'>
+                <img src="html90.png" width="90" height="90">
+                <img src="CSS-Logo.png" width="160" height="90">
+                <img src="JS-logo.png" width="90" height="80">
+
+            </div>
+        </div>
         
     </div>
 </section>
 <section id = 'works'>
+    <h1 class="title">Работы</h1>
     <div  class="works-block">
-        
+        <img src="image.png" width="600">
+        <img src="imageq.png" width="600" , height="540">
+        <img src="f3.png" width="650" , height="540">     
     </div>
 </section>
-<section id = 'comments'>
+
+<section id = 'comment'>
+    <h1 class="title">Отзывы</h1>
     <div  class="comments-block">
-        
+    <div class="comments-card">
+        <img src="icone.jpg" width="90">
+        <h3>Владимир</h3>
+        <p>...</p>
+    </div>
+    <div class="comment">
+        <p>...</p>
+    </div>
+    <div class="comments-card">
+        <img src="icone.jpg" width="90">
+        <h3>Диана</h3>
+        <p>...</p>
+    </div>
+    <div class="comment">
+        <p>...</p>
     </div>
 </section>
+<footer>
+    <div class="footer-info">
+        <p>Перцев Кирилл</p>
+        <p>Личный сайт разработчика</p>
+    </div>
+    <div class="footer-year">
+        <p>© 2024</p>
+    </div>
+    <div class="footer-links">
+        <a href="#"> <img src="telegram.png" width="90"> </a>
+        <a href="#"> <img src="png.png" width="90"> </a>
+    </div>
+ </footer>
 </body>
 </html>
