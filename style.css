@@ -313,6 +313,8 @@ nav{
   .title{
     font-size: 50px;
     padding-top: 30px;
+    box-shadow: 
+    7px 7px 0 #000000;
   }
   .about-block{
     flex-direction: column;
@@ -413,4 +415,16 @@ nav{
 }
 .off-scroll{
   overflow: hidden;
+}
+.img1{
+  left: 50px;
+  position: absolute;
+}
+.img2{
+  right: 750px;
+  position: absolute;
+}
+.img3{
+right: 80px;
+position: absolute;
 }
