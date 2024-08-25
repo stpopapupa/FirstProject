@@ -58,7 +58,7 @@ background-image: url(ajy.png);
   left: 0;
 }
 .works-block{
-margin-left:900px;
+margin-left:1000px;
   width: 15%;
   /* box-shadow: 
     7px 7px 0 #000000; */
@@ -123,7 +123,7 @@ text-decoration: none;
 }
 .img{
   position: absolute;
- right:860px;
+  left: 870px;
 }
 
 .about-title{
